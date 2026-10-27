@@ -1192,19 +1192,13 @@ page = st.sidebar.radio(
 
     [
 
-        "🏠 Home",
-
+        "🏠 Home & Quests",
         "📖 Theory",
-
         "🧬 Molecular Visualization",
-
         "📊 Molecular Properties Report",
-
         "📈 Structure–Property Analysis",
-
-        "📝 Assessment",
-
-        "📄 Final Project Report"
+        "🤖 ChemBot AI Tutor",
+        
 
     ]
 )
