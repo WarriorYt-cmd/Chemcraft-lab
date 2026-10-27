@@ -33,14 +33,15 @@ from reportlab.platypus import (
     PageBreak,
     Image
 )
-from molecules import MOLECULE_LIBRARY
-from molecule_data import (
-    get_experimental,
-    get_experimental_by_smiles,
-    analyze_intermolecular_forces,
-    as_number,
-    EXPERIMENTAL
-)
+from reportlab.lib.units import inch
+from reportlab.lib.utils import ImageReader
+import tempfile
+import os
+
+
+# ============================================================
+# PAGE CONFIGURATION
+# ============================================================
 from minecraft_theme import apply_theme
 from ai_assistant import ask_ai, get_ai_config
 st.set_page_config(
